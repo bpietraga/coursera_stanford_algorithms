@@ -48,7 +48,7 @@ end
 
 require 'minitest/autorun'
 
-class TesKaratsuba < MiniTest::Unit::TestCase
+class TestKaratsuba < MiniTest::Unit::TestCase
   def test_1_by_1_multiplication
     assert_equal 1 * 1, Karatsuba.new(1, 1)
   end
